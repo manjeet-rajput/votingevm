@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.evm{
+  width: 500px;
+    height: 552px;
+    background-color: #c9cab0;
+    float: left;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: black -5px -4px 4px -2px;
+}
+.evm button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.votingcount{
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  color: white;
+  border: 1px solid green;
+  border-radius: 68px;
+  float: left;
+  margin: 50px 100px;
+  box-shadow: inset 1px -2px 4px 13px;
+
+}
+.votingcount h1{
+  font-family: cursive;
+  font-size: 22px;
+  margin-left: 50px;
+
+}
+.votingcount h2{
+  font-family: cursive;
+  font-size: 26px;
+  color: red;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.votingcount1{
+  width: 100%;
+  height: 30%;
+float: left;
+/* background-color: aqua; */
+border-bottom: 1px dashed rgb(21, 255, 0);
+}
+.votingcount2{
+  margin-top: 10%;
+  width: 100%;
+  height: 60%;
+  float: left;
+  /* background-color: blue; */
+  
+}
+.votmachine{
+  width: 400px;
+  height: 500px;
+  background-color:rgb(190, 192, 165);
+}
+.votmachine h1{
+  margin: auto;
+}
+.lightbtnbjp{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(240, 53, 53, 0.639);
+  float: right;
+  margin: 5px 70px;
+}
+/* .lightbtncong{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(240, 53, 53, 0.639);
+  float: right;
+  margin: 20px 70px;
+} */
+
+.evmlogobx{
+  width: 100%;
+  height: 5%;
+
+}
+.numnmlogo{
+  width: 60%;
+  height: 30px;
+  float: left;
+  border: 1px solid black;
+  margin-left: 10px;
+  font-weight: bold;
+  
+}
+.lightbtn{
+  width: 35%;
+    height: 30px;
+    float: left;
+    border: 1px solid black;
+}
+.partylogo img{
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+.srnomb{
+  margin-left: 10px;
+}
+.partynam{
+  margin: 32%;
+}
+.partylogo{
+  float: right;
+  margin-right: 10px;
+}
+.lightblink{
+  width: 20px;
+  height: 20px;
+  border-radius:50% ;
+  /* background-color: darkred; */
+  margin: 4px 19px;
+
+}
+.lightbtn button{
+  width: 60px;
+  height: 22px;
+  background-color: blue;
+  float: right;
+  margin: -25px 6px;
+}
+@media only screen and (max-width: 600px) {
+ .evm{
+  width: 80%;
+   height: 100%;
+   margin: 38px 43px;
+ }
+ .votingcount{
+  margin: -9px 13px;
+ }
+ .partylogo img{
+  margin: -7px -5px;
+ }
+}
+
+
